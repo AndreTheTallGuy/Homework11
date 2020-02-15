@@ -27,6 +27,7 @@ app.get("/api/notes", function(req, res) {
     res.json(data);
   });
 });
+
 app.post("/api/notes", function(req, res) {
   console.log(req.body + "is here");
   db.push(req.body);
