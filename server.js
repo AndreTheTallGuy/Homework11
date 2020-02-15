@@ -1,7 +1,6 @@
 var express = require("express");
 var path = require("path");
 const fs = require("fs");
-// var index = require("./public/assets/js/index")
 var app = express();
 var db = require("./db/db.json");
 var PORT = process.env.PORT || 3000;
