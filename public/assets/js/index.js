@@ -14,6 +14,7 @@ var getNotes = function() {
     method: "GET"
   });
 };
+
 // A function for saving a note to the db
 var saveNote = function(note) {
   return $.ajax({
